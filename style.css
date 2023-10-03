@@ -1,0 +1,23 @@
+.gamePlace{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+
+}
+.tiles{
+    width: 50px;
+    height: 50px;
+    border-radius: 5cm;
+    background-color: black;
+}
+.clicked{
+    text-align: center;
+    background-color: rgb(168, 164, 164);
+    width: 50px;
+    height: 50px;
+    border-radius: 5cm;
+}
